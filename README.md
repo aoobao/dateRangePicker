@@ -35,3 +35,5 @@ this.$refs.range.pick({
 })
 
 ````
+### 页面效果展示
+[https://aoobao.github.io/dateRangePicker/demo.mp4](https://aoobao.github.io/dateRangePicker/demo.mp4)
