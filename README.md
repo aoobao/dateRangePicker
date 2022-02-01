@@ -25,13 +25,13 @@
 ### js代码调用
 ````
 this.$refs.range.pick({
-					type: this.type,
-					range: this.range
-				}).then(res => {
-					this.type = res.type
-					this.range = res.range
-				}).catch((err) => {
-					console.log(err)
-				})
+  type: this.type,
+  range: this.range
+}).then(res => {
+  this.type = res.type
+  this.range = res.range
+}).catch((err) => {
+  console.log(err)
+})
 
 ````
